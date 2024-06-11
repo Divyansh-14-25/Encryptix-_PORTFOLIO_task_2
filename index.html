@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- to use fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <!-- to use icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="FirstSection">
+        <div class="LeftSection">
+            Hello,I'm <span class="purple">Divyansh Srivastav</span>
+            <div> & I'm a passionate</div>
+            <!-- Element to contain animated typing -->
+            <span id="element"></span>
+            <br>
+            <br>
+        </div>
+        <div class="RightSection"><img src="img.png"></div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'programmer', 'web developer', 'programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <section id="about">
+        <div class="container"></div>
+    </section>
+    <!-- about -->
+    <div class="aboutme"> About Me</div>
+    <div class="about">
+        <div class="content">
+            <p>Hello! I'm Divyansh Srivastav , currently persuing BTech as a student at IIEST Shibpur majoring
+                in Department of Civil Engineering .I'm passionate about exploring the vast possibilities within my
+                field and I'm eager to contribute to Web Development and Technology.Join me on this dynamic exploration
+                where engineering
+                meets technology, and creativity merges with coding. Let's build the future together!
+            </p>
+        </div>
+        <div class="image">
+            <image src="bg.jpg" style="border-radius: 45px;"></image>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <!-- skill section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="container">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-css3"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <p>JAVA SCRIPT</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-python"></i>
+                <p>PYTHON</p>
+            </div>
+        </div>
+    </section>
+    <!-- project section -->
+    <div id="myprojects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="project_list">
+                <div class="project">
+                    <img src="Project1.jpg">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>A visually stunning clone of the Amazon website using HTML and
+                            CSS</p>
+                        <a href="https://divyansh-14-25.github.io/Amazon_Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Project2.jpg">
+                    <div class="layer">
+                        <h3>Parallax website</h3>
+                        <p>A web design technique in which the website background moves at a slower pace than the
+                            foreground resulting in optical illusion.</p>
+                        <a href="https://divyansh-14-25.github.io/Parallax_Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- resume -->
+    <div class="button"><a href="MY RESUME.pdf" target="_blank" rel="noopener noreferrer">
+            <button class="btn">Resume</button>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div class="button"><a href="https://github.com/Divyansh-14-25" target="_blank" rel="noopener noreferrer">
+            <button class="btn">github</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Me</h4>
+                <p>Email:divyansh10199@gmail.com</p>
+                <p>Phone:9569596412</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Me</h4>
+                <a href="https://linkedin.com/in/divyansh-srivastav-8439a9290">LinkedIn</a>
+                <br>
+                <a href="https://www.instagram.com/divyansh_14.25_srivastav?igsh=YzljYTk1ODg3Zg==">Instagram</a>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <a href="#about">About</a>
+                <br>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <form>
+                    <input type="text" placeholder="your name">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h2>Made with ❤️</h2>
+            <p>All Right Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
